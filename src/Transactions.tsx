@@ -25,6 +25,7 @@ const mapData = (data: Data) => {
     );
   });
 };
+`git remote add origin https://github.com/MianFaizanAmir0053/Budget-App.git`;
 
 function Transactions({ data }: { data: Data }) {
   const [search, setSearch] = useState([] as Data);
