@@ -41,7 +41,7 @@ function AddPopup({ OnClick }: { OnClick: Function }) {
           type="radio"
           name="radio"
           id="expense"
-          onClick={(e) => {
+          onClick={(e:any) => {
             setFormData({ ...formData, type: e.target.id });
           }}
         />
@@ -53,7 +53,7 @@ function AddPopup({ OnClick }: { OnClick: Function }) {
           id="income"
           name="radio"
           className="ml-4"
-          onClick={(e) => {
+          onClick={(e:any) => {
             setFormData({ ...formData, type: e.target.id });
           }}
         />
